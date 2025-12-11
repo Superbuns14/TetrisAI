@@ -155,7 +155,7 @@ This code is included as part of the research exploration, but **teacher trainin
 To benchmark agents over many games:
 
 ```bash
-python run.py eval-vs --agent1 ml_learned --agent2 heuristic2 --games 50 --max-moves 2000 --pps 2.0
+python run.py eval-vs --agent1 heuristic1 --agent2 heuristic2 --games 50 --max-moves 2000 --pps 2.0
 ```
 
 This prints:
@@ -168,5 +168,5 @@ This prints:
 You can also directly use:
 
 ```bash
-python evaluation.py --agent1 ml_base --agent2 heuristic2 --games 50
+python evaluation.py --agent1 heuristic1 --agent2 heuristic2 --games 50
 ```
